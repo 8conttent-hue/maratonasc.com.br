@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Sobre Nós",
+    "description": "Conheça o MARATONASC"
+  },
+  "hero": {
+    "title": "Sobre Nós",
+    "subtitle": "Sou um apaixonado por corrida e quero ajudar você a superar seus desafios e alcançar suas metas. Neste blog, compartilho minhas experiências e aprendizados ao longo da minha jornada na corrida."
+  },
+  "content": "O MARATONASC é um espaço dedicado a todos que desejam melhorar sua performance na corrida e na saúde. Meu compromisso é fornecer conteúdos de qualidade que ajudem você a se sentir motivado e direcionado em sua jornada.",
+  "mission": "Criar um ambiente acolhedor onde todos possam aprender, se inspirar e alcançar seus objetivos na corrida.",
+  "image": "/images/sobre.jpg",
+  "stats": [
+    {
+      "value": "500+",
+      "label": "Artigos"
+    },
+    {
+      "value": "100k+",
+      "label": "Leitores"
+    },
+    {
+      "value": "5",
+      "label": "Redatores"
+    }
+  ],
+  "team": []
+}

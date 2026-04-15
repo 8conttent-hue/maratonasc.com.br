@@ -1,0 +1,53 @@
+{
+  "name": "MARATONASC",
+  "slug": "maratonasc.com.br",
+  "description": "Uma pessoa do bem com o objetivo de ajudar as pessoas que buscam conhecimento e aprimoramento na prática da corrida ou saúde, Meu nome é Renato Augusto e seja muito bem vindo ao meu blog. Esse blog foi feito para dividir as minhas experiências, porque quando eu comecei a me interessar por corrida eu tive muitas dúvidas então decidi ajudar as pessoas que estão passando pelas mesmas dificuldades que eu. Não importa se você treina na academia ou na rua, se você tem 18 ou 90 anos, meu blog com certeza tem algum conteúdo que fará você alcançar seu objetivo, rotina. Agora você tem um canal de comunicação forte no ramo da corrida. Você vai poder sempre se manter atualizado assinando a minha newsletter.",
+  "url": "https://maratonasc.com.br",
+  "niche": "Esportes e Fitness",
+  "keywords": "Uma pessoa do bem com o objetivo de ajudar as pessoas que",
+  "email": "contato@maratonasc.com.br",
+  "palette": "violet",
+  "colors": {
+    "primary": "#7c3aed",
+    "accent": "#5b21b6",
+    "dark": "#2e1065"
+  },
+  "headerContrast": "light",
+  "font": "inter",
+  "fontFamily": "'Inter', sans-serif",
+  "fontUrl": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+  "components": {
+    "header": "Header-E",
+    "hero": "Hero-C",
+    "features": "Features-I",
+    "about": "About-H",
+    "posts": "Posts-J",
+    "footer": "Footer-D",
+    "sobre": "Sobre-H",
+    "contato": "Contato-G"
+  },
+  "menu": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "label": "Sobre",
+      "href": "/sobre"
+    },
+    {
+      "label": "Contato",
+      "href": "/contato"
+    }
+  ],
+  "social": {
+    "instagram": "",
+    "facebook": "",
+    "twitter": "",
+    "youtube": ""
+  }
+}

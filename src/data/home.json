@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "title": "MARATONASC — Bem-vindo ao MARATONASC",
+    "description": "Desperte seu potencial na corrida e na saúde!"
+  },
+  "hero": {
+    "title": "Bem-vindo ao MARATONASC",
+    "subtitle": "Desperte seu potencial na corrida e na saúde!",
+    "btnText": "Comece sua jornada",
+    "bgImage": "/images/hero.jpg",
+    "btnLink": "/blog"
+  },
+  "features": {
+    "title": "Por que escolher MARATONASC?",
+    "items": [
+      {
+        "icon": "🏃‍♂️",
+        "title": "Conteúdo Rico",
+        "desc": "Aqui você encontra dicas práticas e experiências pessoais que vão te ajudar a evoluir na corrida."
+      },
+      {
+        "icon": "📅",
+        "title": "Rotinas Personalizadas",
+        "desc": "Independente da sua idade ou nível, oferecemos orientações adequadas para cada um."
+      },
+      {
+        "icon": "💬",
+        "title": "Comunidade Engajada",
+        "desc": "Participe de conversas, tire suas dúvidas e compartilhe seu progresso com outros apaixonados por corrida."
+      }
+    ]
+  },
+  "about": {
+    "title": "Quem é Renato Augusto?",
+    "desc": "Sou um apaixonado por corrida e quero ajudar você a superar seus desafios e alcançar suas metas. Neste blog, compartilho minhas experiências e aprendizados ao longo da minha jornada na corrida.",
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Anos de experiência"
+      },
+      {
+        "value": "1000+",
+        "label": "Leitores alcançados"
+      },
+      {
+        "value": "50+",
+        "label": "Artigos e dicas"
+      }
+    ],
+    "image": "/images/about.jpg",
+    "btnText": "Saiba Mais",
+    "btnLink": "/sobre"
+  },
+  "posts": {
+    "title": "Últimos Artigos",
+    "limit": 3,
+    "btnText": "Ver Blog",
+    "btnLink": "/blog"
+  }
+}

@@ -1,0 +1,67 @@
+---
+// Hero-C: Minimalista — tipografia grande, sem imagem de fundo
+interface Props {
+  title: string;
+  subtitle: string;
+  btnText: string;
+  btnLink: string;
+  bgImage: string;
+}
+const { title, subtitle, btnText, btnLink } = Astro.props;
+---
+<section class="bg-white border-b border-gray-100">
+  <div class="max-w-5xl mx-auto px-4 py-24 text-center">
+    <!-- Linha decorativa -->
+    <div class="flex items-center justify-center gap-3 mb-8">
+      <div class="h-px w-12 bg-primary/40"></div>
+      <span class="text-xs font-bold uppercase tracking-[0.25em] text-primary">Blog & Conteúdo</span>
+      <div class="h-px w-12 bg-primary/40"></div>
+    </div>
+
+    <!-- Título grande -->
+    <h1 class="text-5xl md:text-7xl font-black text-dark leading-[1.05] mb-8 tracking-tight">
+      {title.split(' ').map((word, i) => (
+        <span class={i % 3 === 1 ? 'text-primary' : ''}>{word} </span>
+      ))}
+    </h1>
+
+    <!-- Subtítulo -->
+    <p class="text-xl text-gray-500 leading-relaxed max-w-2xl mx-auto mb-12">
+      {subtitle}
+    </p>
+
+    <!-- CTAs -->
+    <div class="flex flex-wrap items-center justify-center gap-4">
+      <a
+        href={btnLink}
+        class="px-8 py-4 bg-dark text-white font-bold rounded-xl hover:bg-accent transition-colors"
+      >
+        {btnText}
+      </a>
+      <a
+        href="/blog"
+        class="px-8 py-4 text-dark font-bold border-2 border-dark rounded-xl hover:bg-dark hover:text-white transition-all"
+      >
+        Explorar Blog →
+      </a>
+    </div>
+
+    <!-- Stats decorativos -->
+    <div class="flex items-center justify-center gap-8 mt-16 pt-8 border-t border-gray-100">
+      <div class="text-center">
+        <div class="text-2xl font-black text-dark">500+</div>
+        <div class="text-xs text-gray-500 uppercase tracking-widest mt-1">Blog</div>
+      </div>
+      <div class="w-px h-10 bg-gray-200"></div>
+      <div class="text-center">
+        <div class="text-2xl font-black text-dark">100k+</div>
+        <div class="text-xs text-gray-500 uppercase tracking-widest mt-1">Leitores</div>
+      </div>
+      <div class="w-px h-10 bg-gray-200"></div>
+      <div class="text-center">
+        <div class="text-2xl font-black text-dark">5+</div>
+        <div class="text-xs text-gray-500 uppercase tracking-widest mt-1">Anos</div>
+      </div>
+    </div>
+  </div>
+</section>
